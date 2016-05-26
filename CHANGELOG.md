@@ -1,6 +1,12 @@
 Consul Template Cookbook Changelog
 ==================================
 
+## v0.10.1 (May 26, 2016)
+
+- Drop "supports :reload" from runit_service definition since the
+  runit cookbook does not define a reload_command for runit_service
+  resources
+
 ## v0.10.0 (February 25th, 2016)
 
 IMPROVEMENTS:
